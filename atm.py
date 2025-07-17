@@ -8,4 +8,12 @@ while True : #아래에 무슨 조건이 오던 무한히 실행.
         num = input("사용하실 기능의 번호를 입력해주세요. (1.입금, 2.출금, 3.영수증 보기, 4.종료) :")
         if num == '4': #input에서 들어오는건 str이기 때문에
             break
+        if num == '1':
+              pass #임시구현
+        if num == '2':
+              pass #임시구현
+        if num == '3':
+              pass #임시구현
         
+
+print(f'서비스를 종료합니다. 현재 잔액 : {balance}')
