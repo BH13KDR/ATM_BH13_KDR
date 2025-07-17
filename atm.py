@@ -9,7 +9,9 @@ while True : #아래에 무슨 조건이 오던 무한히 실행.
         if num == '4': #input에서 들어오는건 str이기 때문에
             break
         if num == '1':
-              pass #임시구현
+              deposit_amount = int(input("입금할 금액을 입력해주세요."))
+              balance += deposit_amount
+              print(f'입금하신 금액{deposit_amount}원. 현재잔액은 {balance}입니다.')
         if num == '2':
               pass #임시구현
         if num == '3':
